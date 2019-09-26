@@ -45,7 +45,7 @@ public class ClaseAdapter extends BaseAdapter {
     private void decorateWith(View view, ListViewitem listViewitem) {
         ImageView imageView = view.findViewById(R.id.imageView);
         TextView textView = view.findViewById(R.id.Texto_editable);
-        ContextCompat.getColor(view.getContext(), R.color.getlistview_item.getColorid());
+        (ContextCompat.getColor(view.getContext(), ClaseAdapter.getItem(a).getColorId());
         imageView.setImageResource(listViewitem.getImageResource());
         textView.setText(listViewitem.getTitle());
 
